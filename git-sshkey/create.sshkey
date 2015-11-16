@@ -1,0 +1,6 @@
+1.查看是否存在ssh key:路径一般在 ~/.ssh/
+2.存在则备份删除
+3.生成密钥:
+	ssh-keygen -t rsa -C "这个是git的邮箱"
+	回车三次,一般默认
+4.vim $path/.ssh/id_rsa.pub

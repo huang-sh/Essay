@@ -1,0 +1,3 @@
+设置Git的user name和email
+git config --global user.name "git的名称"
+git config --global user.email "git的邮箱"
