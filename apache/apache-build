@@ -1,0 +1,21 @@
+1. Apache 2.4.17
+2. wget http://www.eu.apache.org/dist//httpd/httpd-2.4.17.tar.bz2
+3. bzip2 -d httpd-2.4.17.tar.bz2
+4. tar -xf httpd-2.4.17.tar
+
+5. Apache环境:
+6. APR:
+7. wget http://www.us.apache.org/dist/apr/apr-1.5.2.tar.gz
+8. ./configure --prefix=path (path是安装路径)
+9. sudo make && sudo make install
+
+10. APR-uitl:
+11. wget http://www.us.apache.org/dist/apr/apr-util-1.5.4.tar.gz
+12. ./configure –-prefix=path (path是安装路径)
+13. sudo make && sudo make install
+
+14. Pcre安装(这个版本不能太高,看Apache的具体版本.):
+15. wget ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.36.tar.bz
+16. ./configure --prefix=path (path是安装路径)
+17. sudo make && sudo make install
+
