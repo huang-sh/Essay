@@ -1,0 +1,1 @@
+ctags --languages=-all --languages=+c,c++ --recurse=yes *
